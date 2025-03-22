@@ -10,4 +10,4 @@ https://docs.github.com/en/codespaces
 https://mybinder.org/
 ```
 
-[Context](./context.md)
+[Context](./../context.md)
