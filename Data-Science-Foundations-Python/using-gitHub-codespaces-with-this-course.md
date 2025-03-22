@@ -3,7 +3,7 @@ I'm going to show you how to work with GitHub Codespaces. Codespaces is a code e
 
 To practice, along with the course, you can create a Codespaces directly from the course overview page. First click open next to GitHub code spaces. If you're already logged in, you'll be directed to getting started with GitHub Codespaces page.  
 
-<img src="./Data-Science-Foundations-Python/images/new-createcodespace.png" title="new-createcodespace.png"> 
+<img src="./images/new-createcodespace.png" title="new-createcodespace.png"> 
 
 ```
 https://docs.github.com/en/codespaces
