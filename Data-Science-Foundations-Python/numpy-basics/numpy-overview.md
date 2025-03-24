@@ -1,10 +1,11 @@
+### Ch02/02_01
+
 Let's look at one of the building blocks of the scientific Python stack, which is Numpy, sometimes pronounced Numpy. 
 
 Numpy gives us fast **homogeneous arrays or matrices, math functions, linear algebra, randomization**. 
 
 We can ask why do we need matrices when we have Python lists. Python lists are powerful and very fast. However, since they need to accommodate many use cases, there's a performance and memory penalty. You pay. Let's have a look. 
 
-### Ch02/02_01
 ```
 2 ** 1000
 import numpy as np
