@@ -6,22 +6,11 @@ We can ask why do we need matrices when we have Python lists. Python lists are p
 
 ### Ch02/02_01
 ```
-# %%
 2 ** 1000
-# %%
-
 import numpy as np
 
 np.init64(2) ** 1000
 
-# %%
-
-np.sin(27)
-
-# %%
-
-
-np.sin(np.array( [1,2,3] ) )
 ```
 
 
@@ -32,9 +21,23 @@ The number cannot fit in a 64 bit. Integer in scientific computation, usually a 
 
 Under the Hood, Numpy uses **highly optimized C and fortran code**. Don't look down at fortran. The fortran compiler can sometimes do optimizations that the C compiler can especially when dealing with the arrays.
 
-Numpy offers more than speed selecting, reshaping, multiplications and more. It also provides a **lot of scientific functions**. All of these functions work both on scalars, integer floats and on arrays, so here we have Numpy sign. 
 
-And we compute the sine of 27 or we can run sine on an array of three elements and get the sign for every element in the array. We import Numpy as and since Numpy has a lot of functions inside. So instead of doing from Numpy import and then a long list, we input Numpy, SNP and then N dot N.
+<img src="./images/scientific-functions.png" title="scientific-functions.png"> 
+
+Numpy offers more than speed selecting, reshaping, multiplications and more. It also provides a **lot of scientific functions**. All of these functions work both on scalars, integer floats and on arrays, so here we have Numpy sign.         
+
+```
+
+
+
+np.sin(27)
+
+
+
+
+np.sin(np.array( [1,2,3] ) )
+```
+And we compute the sine of 27 or we can run sine on an array of three elements and get the sign for every element in the array. We import Numpy as and since **Numpy has a lot of functions inside**. So instead of doing from Numpy import and then a long list, we inport Numpy, uses np and then np dot np.
 
 
 
