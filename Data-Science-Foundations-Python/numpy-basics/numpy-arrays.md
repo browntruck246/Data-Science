@@ -1,3 +1,5 @@
+## Ch02/02_02
+
 Let's start looking into Numpy arrays. So first we import Numpy as np. And now I'm creating an array of three elements with 1, 2 and 3 run this. And we have an array 1, 2 and for starts. Arrays look very much like lists.    
 
 ```
