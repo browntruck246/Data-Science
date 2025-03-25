@@ -77,7 +77,7 @@ arr[1,1]
 np.int32(5)
 
 
-What happens if you want a column for a column? We're going to use slicing. **Say we want all the rows, but only the second element for every row**, and now we're going to get 1, 5 and 9, which is the first column. 
+What happens if you want a column? We're going to use slicing. **Say we want all the rows, but only the second element for every row**, and now we're going to get 1, 5 and 9, which is the first column. Note that we get a flat array and not an array of ones. 
 
 ```
 import numpy as np
@@ -95,6 +95,77 @@ arr[:,1]
 array([1, 5, 9])
 
 
-Note that we get a flat array and not an array of ones. If you want to get. The full array of funds you will need to read.
-Cheap.
-So now we get it in a vertical. Format. You can do slicing on both axes, so all the rows from the 2nd row and the columns from the third column. You can also use slicing to set values, so I'm doing the slicing as before, but now equals 7 and now when I'm looking at the array I'm seeing that the bottom right is all 7.
+If you want to get the full array of ones you will need to reshape.So now we get it in a vertical format. 
+
+```
+import numpy as np
+
+arr = np.arange(12).reshape(3, 4)
+arr
+```
+array([[ 0,  1,  2,  3],   
+       [ 4,  5,  6,  7],     
+       [ 8,  9, 10, 11]])    
+
+```
+arr[:,1]
+```
+array([1, 5, 9])
+
+```
+arr[:,1].reshape((3, 1))
+```
+array([[1],       
+       [5],    
+       [9]])       
+
+You can do slicing on both axes, so all the rows from the 2nd row and the columns from the third column. 
+```
+import numpy as np
+
+arr = np.arange(12).reshape(3, 4)
+arr
+```
+array([[ 0,  1,  2,  3],      
+       [ 4,  5,  6,  7],     
+       [ 8,  9, 10, 11]])      
+
+```
+arr[1:]
+```
+array([[ 4,  5,  6,  7],     
+       [ 8,  9, 10, 11]])     
+
+```
+arr[1:, 2:]
+```
+array([[ 6,  7],   
+       [10, 11]])     
+
+
+You can also use slicing to set values, so I'm doing the slicing as before, but now equals 7 and now when I'm looking at the array I'm seeing that the bottom right is all 7.
+
+```
+import numpy as np
+
+arr = np.arange(12).reshape(3, 4)
+arr
+```
+array([[ 0,  1,  2,  3],      
+       [ 4,  5,  6,  7],     
+       [ 8,  9, 10, 11]])      
+
+```
+arr[1:]
+```
+array([[ 4,  5,  6,  7],     
+       [ 8,  9, 10, 11]])     
+
+```
+arr[1:, 2:] = 7
+arr
+```
+array([[0, 1, 2, 3],
+       [4, 5, 7, 7],
+       [8, 9, 7, 7]])   
+
