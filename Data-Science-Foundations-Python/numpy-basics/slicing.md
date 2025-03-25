@@ -17,6 +17,66 @@ v[2:4]
 ```
 array([3, 4])
 
-Numpy takes slicing to a whole new level. Let's have a look. Let's create an array with three rows and four columns. When we take the array at location 0, we are going to get the 1st row. We can also say the second element in the 2nd row and this is 5 S. This one here. We can also do it in another way by saying I want one comma one. And this will give me the same element. What happens if you want a column for a column? We're going to use slicing. Say we want all the rows, but only the second element for every row, and now we're going to get 1/5 and 9, which is the first column. Note that we get a flat array and not an array of ones. If you want to get. The full array of funds you will need to read.
+Numpy takes slicing to a whole new level. Let's have a look. Let's create an array with three rows and four columns. 
+```
+import numpy as np
+
+arr = np.arange(12).reshape(3, 4)
+arr
+```
+array([[ 0,  1,  2,  3],    
+       [ 4,  5,  6,  7],     
+       [ 8,  9, 10, 11]])      
+
+
+When we take the array at location 0, we are going to get the 1st row. 
+
+```
+import numpy as np
+
+arr = np.arange(12).reshape(3, 4)
+arr
+
+arr[0]
+```
+array([0, 1, 2, 3])
+
+
+We can also say the second element in the 2nd row and this is 5 . 
+
+```
+import numpy as np
+
+arr = np.arange(12).reshape(3, 4)
+arr
+```
+array([[ 0,  1,  2,  3],   
+       [ 4,  5,  6,  7],     
+       [ 8,  9, 10, 11]])    
+
+```
+arr[1][1]
+```
+np.int32(5)
+       
+We can also do it in another way by saying I want one comma one. And this will give me the same element.
+
+```
+import numpy as np
+
+arr = np.arange(12).reshape(3, 4)
+arr
+```
+array([[ 0,  1,  2,  3],   
+       [ 4,  5,  6,  7],     
+       [ 8,  9, 10, 11]])    
+
+```
+arr[1,1]
+```
+np.int32(5)
+
+
+What happens if you want a column for a column? We're going to use slicing. Say we want all the rows, but only the second element for every row, and now we're going to get 1/5 and 9, which is the first column. Note that we get a flat array and not an array of ones. If you want to get. The full array of funds you will need to read.
 Cheap.
 So now we get it in a vertical. Format. You can do slicing on both axes, so all the rows from the 2nd row and the columns from the third column. You can also use slicing to set values, so I'm doing the slicing as before, but now equals 7 and now when I'm looking at the array I'm seeing that the bottom right is all 7.
