@@ -104,7 +104,7 @@ arr @ arr =
 
 14
 
- Let's use one of the many utilities we have in Numpy to create arrays uses range. It's very much like Python range, but returns an array. So if you do v = a range of 12, you're going to get an array from zero to 12, and now we can use the reshape. 
+ Let's use one of the many utilities we have in Numpy to create arrays uses range. It's very much like Python range, but returns an array. So if you do v = a range of 12, you're going to get an array from zero to 12. 
 
 ```
 import numpy as np
@@ -116,4 +116,18 @@ array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11])
  
  
  
-To reshape the array. So if you're going to run this one now, we're going to get an array with four rows and three columns. So in a single line we can run matte equal Numpy, a range 12, reshape 4:00 and 3:00, and then get our matrix. We can call the dot shape attribute to know what is the current shape or how many rows, columns, and maybe other dimensions a matrix has. Let's create another matrix by reshaping the original 1 instead of 4 rows and three columns, 3 rows and four columns, and now we're going to change the value in. This reshaped metrics and then take a look at the original 1. And we see that the original matrix is affected as well when you do a reshape, you get a view of the underlying data. It's not a copy. There are many other methods and functions that work with Numpy arrays. For example, you can transfer the metric by calling. The T attribute. You'll pick more as you go, but I think this is enough for understanding the basics. Of Numpy arrays.
+Now we can use the reshape. To reshape the array. So if you're going to run this one now, we're going to get an array with four rows and three columns. So in a single line we can run matte equal Numpy, a range 12, reshape 4 and 3, and then get our matrix.
+
+```
+import numpy as np
+
+v = np.arange(12)
+v.reshape((4, 3 ))
+```
+array([[ 0,  1,  2],
+       [ 3,  4,  5],
+       [ 6,  7,  8],
+       [ 9, 10, 11]])
+
+
+We can call the dot shape attribute to know what is the current shape or how many rows, columns, and maybe other dimensions a matrix has. Let's create another matrix by reshaping the original 1 instead of 4 rows and three columns, 3 rows and four columns, and now we're going to change the value in. This reshaped metrics and then take a look at the original 1. And we see that the original matrix is affected as well when you do a reshape, you get a view of the underlying data. It's not a copy. There are many other methods and functions that work with Numpy arrays. For example, you can transfer the metric by calling. The T attribute. You'll pick more as you go, but I think this is enough for understanding the basics. Of Numpy arrays.
