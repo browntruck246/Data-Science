@@ -130,4 +130,30 @@ array([[ 0,  1,  2],
        [ 9, 10, 11]])     
 
 
-We can call the dot shape attribute to know what is the current shape or how many rows, columns, and maybe other dimensions a matrix has. Let's create another matrix by reshaping the original 1 instead of 4 rows and three columns, 3 rows and four columns, and now we're going to change the value in. This reshaped metrics and then take a look at the original 1. And we see that the original matrix is affected as well when you do a reshape, you get a view of the underlying data. It's not a copy. There are many other methods and functions that work with Numpy arrays. For example, you can transfer the metric by calling. The T attribute. You'll pick more as you go, but I think this is enough for understanding the basics. Of Numpy arrays.
+We can call the dot shape attribute to know what is the current shape or how many rows, columns, and maybe other dimensions a matrix has. 
+```
+import numpy as np
+
+mat = np.arange(12).reshape((4, 3))
+mat
+```
+array([[ 0,  1,  2],   
+       [ 3,  4,  5],   
+       [ 6,  7,  8],   
+       [ 9, 10, 11]])    
+
+
+
+
+
+Let's create another matrix by reshaping the original one instead of 4 rows and 3 columns, 3 rows and 4 columns, and now we're going to change the value in. This reshaped metrics and then take a look at the original one. And we see that the original matrix is affected as well when you do a reshape, you get a view of the underlying data. It's not a copy. There are many other methods and functions that work with Numpy arrays. For example, you can transfer the metric by calling. The T attribute. You'll pick more as you go, but I think this is enough for understanding the basics. 
+
+
+```
+mat2 = mat.reshape((3, 4))
+mat2[1, 1] = 1000
+mat2
+```
+array([[   0,    1,    2,    3],     
+       [   4, 1000,    6,    7],     
+       [   8,    9,   10,   11]])          
