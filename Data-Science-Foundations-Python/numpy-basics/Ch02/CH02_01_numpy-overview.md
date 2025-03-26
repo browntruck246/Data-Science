@@ -1,4 +1,4 @@
-### Ch02/02_01
+### Ch02/02_01 Numpy Overview
 
 Let's look at one of the building blocks of the scientific Python stack, which is Numpy, sometimes pronounced Numpy. 
 
