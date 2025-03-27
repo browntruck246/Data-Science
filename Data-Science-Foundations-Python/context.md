@@ -8,4 +8,4 @@
 *
 
 ## NumPy Basics
-* ![CH02/01 NumPy Overview](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/CH02_01_NumPy_Overview.ipynb)
+* [CH02/01 NumPy Overview](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/CH02_01_NumPy_Overview.ipynb)
