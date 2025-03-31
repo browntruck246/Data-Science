@@ -1,4 +1,6 @@
-# CH02 / Challenge
+# CH02 
+
+## Challenge
 
 Say we have this image of a flower. We can use Matplotlib to load this image into memory. 
 
