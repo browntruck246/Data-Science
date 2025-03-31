@@ -1,3 +1,5 @@
+## CH02/02_07
+
 There are many functions defined in Numpy. How many? Let's see will import Numpy and then look at how many elements the **dir command return**. And you're going to see 603. This might change depending on the Numpy version you have. We are not going to cover all of the 600 plus attributes, but this is start working in Numpy. You'll find the ones useful for you and commit them to memory. However, there's one aspect of Numpy functions I like. To discuss. 
 
 
