@@ -1,3 +1,5 @@
+# CH02/02_05
+
 Let's have a look at the piece of code we import numpy's and P we create a range and then add 4 to it. Let's run this.
 
 We added the scalar to a vector. Numpy does what makes sense, it adds the scalar to every element of the array. This is known as broadcasting broadcasting work for other dimensions as well. So we're going to create three to three metric and then add a vector of three, and then matrix plus the vector. And this time we add the vector to every row.
