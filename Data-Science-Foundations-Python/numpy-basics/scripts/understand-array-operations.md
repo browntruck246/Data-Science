@@ -1,3 +1,5 @@
+# CH02/ 02_06
+
 Let's see what an array can offer us. So import NumPy as np and then create an array of three rows and three columns. Let's run it. 
 
 And I'm going to do V dot. You can see a lot of things that can be accessed. From the array. 
