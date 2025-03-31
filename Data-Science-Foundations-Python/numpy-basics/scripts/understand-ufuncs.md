@@ -1,6 +1,6 @@
 ## CH02/02_07
 
-There are many functions defined in Numpy. How many? Let's see will import Numpy and then look at how many elements the **dir command return**. And you're going to see 603. This might change depending on the Numpy version you have. We are not going to cover all of the 600 plus attributes, but this is start working in Numpy. You'll find the ones useful for you and commit them to memory. However, there's one aspect of Numpy functions I like. To discuss. 
+There are many functions defined in Numpy. How many? Let's see will import Numpy and then look at how many elements the **dir command return**. And you're going to see 603. This might change depending on the Numpy version you have. We are not going to cover all of the 600 plus attributes, but this is start working in Numpy. You'll find the ones useful for you and commit them to memory. However, there's one aspect of Numpy functions I like to discuss. 
 
 
 So if I'm doing the **sine of 90**, I'm going to return a number. Remember **sine gets its values as radiants and not degrees**. You might wonder why Numpy is defining a function that's already defined in the built in math model. 
