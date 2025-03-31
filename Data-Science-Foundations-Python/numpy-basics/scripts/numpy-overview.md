@@ -1,3 +1,5 @@
+# CH02 / 02_01
+
 Let's look at one of the building blocks of the scientific Python stack, which is Numpy, sometimes pronounced Numpy.
 
 Numpy gives us fast homogeneous arrays or matrices, math functions, linear algebra, randomization.
