@@ -1,3 +1,5 @@
+# CH02 / 02_04
+
 Sometimes you'd like to select parts of an array not by indices, but by some logic, say all the values that are bigger than some threshold.
 
 For this, we're going to use Boolean indexing. Let's see how it works. So we import Numpy and create an array with three elements. Let's run it.
