@@ -11,31 +11,13 @@
 * [CH02/01 NumPy Overview](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/CH02_01_NumPy_Overview.ipynb)
 * [Ch02/02 NumPy Arrays](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/Ch02_02_NumPy_Arrays.ipynb)
 * [Ch02/03 Slicing](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/Ch02_03_Slicing.ipynb)
-*  [Ch02/04 Learn Boolean Indexing](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/Ch02_04_Learn_Boolean_Indexing.ipynb)
-*  
-•	
-Understand broadcasting(Viewed)
-1m 19s video
-Save
-•	
-Understand array operations(Viewed)
-2m 22s video
-Save
-•	
-Understand ufuncs(Viewed)
-2m 39s video
-Save
-•	
-Challenge: Working with an image(Viewed)
-58s video
-Save
-•	
-Solution: Working with an image(Viewed)
-1m 22s video
-Save
-•	
-Chapter Quiz(In progress)
-7 questions
+* [Ch02/04 Learn Boolean Indexing](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/Ch02_04_Learn_Boolean_Indexing.ipynb)
+* [CH02/05_Understand_Broadcasting](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/CH02_05_Understand_Broadcasting.ipynb)
+* [CH02/06_Understand_Array_Operations](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/CH02_06_Understand_Array_Operations.ipynb)
+* [CH02/07_Understand_ufuncs](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/CH02_07_Understand_ufuncs.ipynb)
+### Practice
+* [Slice](https://github.com/browntruck246/Data-Science/blob/main/Data-Science-Foundations-Python/numpy-basics/practice/slice.ipynb) 
+
 
 3. pandas
 •	
