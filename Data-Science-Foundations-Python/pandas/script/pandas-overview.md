@@ -1,4 +1,4 @@
-## CH3/03_01
+## CH3/03_01 Pandas Overview   
 
 Data in the real world is often composed from values that have mixed types. Some can be numeric age, for example, some can be textual names, for example, some can be time like the year of birth, et cetera, et cetera. 
 
