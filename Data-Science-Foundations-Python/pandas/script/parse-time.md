@@ -1,3 +1,5 @@
+# CH03/03 Parse Time¶
+
 Let's load our Data Frame. So we import pandas and we read the CSV and we display the data types. For each column. You can see the latitude, longitude and height are floats and the **time is an object, which usually means a string in panels**. In some cases it's OK for data to be a string, but in our case you expect some kind of a timestamp, unlike JSON and other formats, CSV don't have type information embedded with the data. Which means that everything comes out as a string. Pandas does a good job at guessing types, but here it needs our help in parsing the time. 
 
 
