@@ -17,4 +17,12 @@ So we do with CSV file open and you should **open always file with a with statem
 
 And we can do the same with the Shell command. First the head utility to see the 1st 5 lines and then the WC -l to see how many lines we have in there. 
 
-Now we can load the data frame into pandas, so we import pandas as PD and the F is PD read CSV. The variable holding the dataframe is traditionally. Called DF and we are going to print how many rows are in the data frame. So learn of diff. And now we are going to get 740 while WC showed us 741, pandas is loading the 1st row as the column names and counting only the rest of the rows which are the data rows. Let's have a look at the column. So DFF columns and we see we have time, latitude, longitude and height which matches what we actually see in the C-Suite. We can also run the info method to get some information about every column, so the column how many non values we have and what is the data type of every. We see that the first column is an object, which means the string and then we have floats for latitude, longitude and height. You can also find the described method which will give you information about numerical columns. So only the latitude and longitude and height you'll get the count, the mean, standard deviations and other interesting statistics.
+Now we can load the data frame into pandas, so we import pandas as pd and the df is pd read CSV. The variable holding the **dataframe is traditionally called df**.
+
+We are going to print how many rows are in the data frame so len of df. And now we are going to get 740 while wc showed us 741, pandas is loading the 1st row as the column names and counting only the rest of the rows which are the data rows. 
+
+Let's have a look at the column. So df.columns and we see we have time, latitude, longitude and height which matches what we actually see in the CSV. 
+
+We can also run the info method to get some **information about every column**, so the column how many non values we have and what is the data type of every. We see that the first column is an object, which means the string and then we have floats for latitude, longitude and height. 
+
+You can also find the **described method which will give you information** about numerical columns. So only the latitude and longitude and height you'll get the **count, the mean, standard deviations and other interesting statistics**.
